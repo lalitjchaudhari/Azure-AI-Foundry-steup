@@ -23,4 +23,12 @@ uv pip install ipykernel jupyterlab notebook
 ``
 python -m ipykernel install --user --name=.venv --display-name="Python (.venv)"
 ``
+## Install additional requirements (optional - for deploying repo or running mkdocs)
+``
+uv pip install -r requirements.txt
+``
 
+## Install Azure CLI 
+``
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+``
